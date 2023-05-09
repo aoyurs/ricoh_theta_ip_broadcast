@@ -1,1 +1,1 @@
-# ricoh_theta_ip_broadcast
+# theta相机设置的wifi 设置成客户端模式后，监听ip广播，获取相机连接指定wifi后的ip地址信息，注意这必须在同一个网段 
