@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 """ Example of browsing for a service (in this case, HTTP) """
-import binascii
 import socket
 from loguru import logger
 from zeroconf import ServiceStateChange, Zeroconf, ServiceBrowser
@@ -48,7 +47,6 @@ class MyListener:
             if index != bytes_count - 1:
                 ip += '.'
         logger.debug(f"ip:{ip}")
-        # binascii.hexlify(b_text)
 
 
 if __name__ == '__main__':
